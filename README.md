@@ -8,3 +8,6 @@ The data was first wrangled from a larger database through GPS to narrow down vi
 Then a Neural net classifier was trained on the data to identify flashing RRFBs, not flashing RRFBs and unknown videos.
 The classifier achieved an approximate f1 score of 80% on test data. 
 The classifier did not end up being used in the final data wrangling step, but a lot of the scripts used to increase manual labeling did end up being utilized in the project.
+ 
+Libraries of Note used:
+Keras with Tensorflow backend
